@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900");
+
+#root {
+  font-family: "Work Sans" !important;
+}
+
+:root {
+  --font-family: "Work Sans";
+  --font-size-a0: 14px;
+  --line-height-a0: 20px;
+  --font-size-a: 16px;
+  --line-height-a: 24px;
+  --font-size-b: 20px;
+  --line-height-b: 30px;
+  --font-size-c: 40px;
+  --line-height-c: 45px;
+  --font-weight-w1: 400;
+  --font-weight-w3: 700;
+  --font-weight-w2: 600;
+}
+
+.f {
+  font-family: var(--font-family) !important;
+}
+
+/* 14px */
+.f0 {
+  font-size: var(--font-size-a0) !important;
+  line-height: var(--line-height-a0) !important;
+}
+
+/* 16px */
+.f1 {
+  font-size: var(--font-size-a) !important;
+  line-height: var(--line-height-a) !important;
+}
+
+/* 20px */
+.f2 {
+  font-size: var(--font-size-b);
+  line-height: var(--line-height-b);
+}
+
+/* 40px */
+.f3 {
+  font-size: var(--font-size-c);
+  line-height: var(--line-height-c);
+}
+
+/* font-weights */
+.w1 {
+  font-weight: var(--font-weight-w1) !important;
+}
+
+/* 600 */
+.w2 {
+  font-weight: var(--font-weight-w2) !important;
+}
+
+/* 700 */
+.w3 {
+  font-weight: var(--font-weight-w3);
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}

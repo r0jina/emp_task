@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900");
+
+.mainlogin {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center;
+}
+
+.navright {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: fit-content;
+  gap: 30px !important;
+  /* width: 50px; */
+}
+
+.bellicon {
+  position: relative;
+}
+
+.circleicon {
+  position: absolute;
+}
+
+.css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper {
+  top: 50px !important;
+  left: 1200px !important;
+}
+
+.bg_chart {
+  background-color: #f5f5f5;
+}
+
+.css-yz9k0d-MuiInputBase-input {
+  border: 1px solid #dcdceb !important;
+  border-radius: 5px !important;
+}
+
+.search {
+  position: relative;
+}
+
+.searchicon {
+  position: absolute;
+  margin-left: 190px;
+}
+
+.mainleave {
+  display: flex !important;
+  grid-template-columns: repeat(auto-fill, 241px);
+  grid-gap: 0 20px;
+}
